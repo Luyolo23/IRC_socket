@@ -20,4 +20,4 @@ This is a simple Python-based IRC (Internet Relay Chat) client that allows users
 Run the script with the following command structure:
 
 ```bash
-python3 irc.py [listen|send|both] <server> <port> <channel> <username>
+python3 irc.py [listen|send] <server> <port> <channel> <username>
