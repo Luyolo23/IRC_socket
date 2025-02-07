@@ -90,7 +90,6 @@ def send(server, port, channel, username):
     # Join the specified channel
     irc.send(f"JOIN {channel}\r\n".encode('utf-8'))
 
-    # Main loop to send messages
     while True:
         # Get user input
         message = input()
