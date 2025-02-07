@@ -112,7 +112,7 @@ if __name__ == "__main__":
     """
     # Check if the correct number of arguments is provided
     if len(sys.argv) < 6:
-        print('Usage: python3 irc.py [listen|send|both] <server> <port> <channel> <username>')
+        print('Usage: python irc.py [listen|send|both] <server> <port> <channel> <username>')
         sys.exit(1)
 
     # Parse command-line arguments
